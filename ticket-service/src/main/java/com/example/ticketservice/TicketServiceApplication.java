@@ -10,4 +10,9 @@ public class TicketServiceApplication {
         SpringApplication.run(TicketServiceApplication.class, args);
     }
 
+    @Bean
+    @LoadBalanced
+    public RestTemplate restTemplate(){
+        return new RestTemplate();
+    }
 }

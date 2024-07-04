@@ -8,10 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import software.kasunkavinda.payment_service.dto.PaymentDTO;
-import software.kasunkavinda.payment_service.dto.ResponseDTO;
-import software.kasunkavinda.payment_service.service.PaymentService;
-import software.kasunkavinda.payment_service.service.TicketStatusService;
+
 
 
 @RestController
